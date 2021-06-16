@@ -6,10 +6,11 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
-hero: '/static/img/pencils.jpg'
+hero: '/static/img/hero/pencils.jpg'
 ---
+<img src="/static/img/page/dog.jpg" title="Cute dog in a blanket" class="rt" />
 
-# Expertise
+## Expertise
 
 Two decades of hands-on experience have yielded a diverse skillset. This is a partial list.
 
@@ -27,6 +28,8 @@ Two decades of hands-on experience have yielded a diverse skillset. This is a pa
 - Content Strategy & Execution
 - Business Development
 - Creative Sponsorships & New Media Experience
+
+https://www.youtube.com/watch?v=Y3EKje3JIT4
 
 ## Education
 London School of Hygiene & Tropical Medicine

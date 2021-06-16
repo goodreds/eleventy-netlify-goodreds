@@ -6,7 +6,7 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
-hero: '/static/img/idea.jpg'
+hero: '/static/img/hero/idea.jpg'
 ---
 
 # GOODREDS x DESIGN x DEVELOPMENT
@@ -15,6 +15,4 @@ Design, development, & experience Over 20 years in industry helping clients' ide
 
 ## follow gXd
 
-Email > Thank you! Your message has been sent. Unable to send your message. Please fix errors then try again.
-
-  NEWSLETTER SIGN-UP Receive updates. Unsubscribe at any time.
+NEWSLETTER SIGN-UP Receive updates. Unsubscribe at any time.

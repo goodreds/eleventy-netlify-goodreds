@@ -8,9 +8,9 @@ permalink: /contact/index.html
 eleventyNavigation:
   key: Contact
   order: 3
-hero: '/static/img/pool.jpg'
+hero: '/static/img/hero/pool.jpg'
 ---
-# Contact
+<!-- # Contact -->
 
 Get in contact. Fill in the form below. Business Center 56 Gertrude St, Highgate Hill, Brisbane, Queensland, Australia, 4101.
 
