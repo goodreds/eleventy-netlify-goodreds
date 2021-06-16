@@ -1,20 +1,19 @@
 ---
 layout: layouts/home.njk
 title: Home
-date: 2016-01-01T00:00:00.000Z
+date: "2021-05-14"
 permalink: /
 eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+# GOODREDS x DESIGN x DEVELOPMENT
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+Design, development, & experience Over 20 years in industry helping clients' ideas to work. Sample Title Sample Text Sample Title Sample Text "Quality design with attention to detail at a fair price" Instagram
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+## follow gXd
 
-Or click the button below to deploy your own copy of this project to Netlify.
+Email > Thank you! Your message has been sent. Unable to send your message. Please fix errors then try again.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+  NEWSLETTER SIGN-UP Receive updates. Unsubscribe at any time.
