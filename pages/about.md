@@ -6,7 +6,7 @@ permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
-hero: 'static/img/pencils.jpg'
+hero: '/static/img/pencils.jpg'
 ---
 
 # Expertise

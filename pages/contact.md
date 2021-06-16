@@ -8,7 +8,7 @@ permalink: /contact/index.html
 eleventyNavigation:
   key: Contact
   order: 3
-hero: 'static/img/pool.jpg'
+hero: '/static/img/pool.jpg'
 ---
 # Contact
 
