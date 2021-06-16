@@ -11,7 +11,8 @@
 			</em>
 			{% include "components/nav.njk" %}
 			{% if (hero) %}
-				<img src="{{ hero }}" alt="Hero image for {{ title }}" class="page-hero">
+			<img class="page-hero" src="{{ hero }}" alt="Hero image for {{ title }}" />
+			{% endif %}
 		</header>
 
 		<main>
