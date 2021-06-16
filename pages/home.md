@@ -6,6 +6,7 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+hero: '/static/img/idea.jpg
 ---
 
 # GOODREDS x DESIGN x DEVELOPMENT
