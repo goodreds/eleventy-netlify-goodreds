@@ -47,6 +47,17 @@ module.exports = function(eleventyConfig) {
     })
   );
 
+  eleventyConfig.addCollection("journal", collection =>
+    collection.getFilteredByGlob("posts/*.md").filter(post => {
+      return (post.data.journal ? post : false);
+    })
+  );
+
+  // eleventyConfig.addCollection("journal", collection => {
+  //   collection.getFilteredByGlob("posts/*.md").filter(post => {
+  //     return (post.data.journal ? post : false);
+  //   })
+  // });
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
