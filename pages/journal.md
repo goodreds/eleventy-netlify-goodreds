@@ -9,7 +9,7 @@ eleventyNavigation:
 hero: '/static/img/hero/pencils.jpg'
 ---
 
-Want to hear me play? Here are the upcoming events.
+Here are the latest entries.
 
 <table>
     <thead>
