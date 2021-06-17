@@ -3,7 +3,7 @@ title: "5 Tools To Speed Up CSS Development"
 date: "2013-10-09"
 journal: "001"
 metaDescription: "5 tools to speed up your development of CSS"
-permalink: "/journal/5-tools-for-css"
+permalink: "/journal/5-tools-for-css/"
 categories:
   - "code"
   - "how"
@@ -13,7 +13,7 @@ coverImage: "/static/img/code-e1580368194543.png"
 ---
 
 **Date** {{ date | readableDate }}
-**Journal Entry** {{ journalEntry }}
+**Journal Entry** {{ journal }}
 
 {{ metaDescription }}
 
