@@ -24,7 +24,7 @@ Want to hear me play? Here are the upcoming events.
         <tr>
             <td>{{ post.date | readableDate }}</td>
             <td><a href="{{ post.url }}">{{ post.data.title }}</a></td>
-            <td>{{ post.data.location }}</td>
+            <td>{{ post.data.eventLocation }}</td>
         </tr>
         {%- endfor -%}
     </tbody>

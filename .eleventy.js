@@ -40,10 +40,10 @@ module.exports = function(eleventyConfig) {
       return coll;
     }, {});
   });
-  /* Create a collection definition in .eleventy.js so we can treat these events as a collection. Here’s how the collection is defined: we gather all Markdown files in the posts directory and filter out anything that doesn’t have a location specified in the front matter. */
+  /* Create a collection definition in .eleventy.js so we can treat these events as a collection. Here’s how the collection is defined: we gather all Markdown files in the posts directory and filter out anything that doesn’t have an event location specified in the front matter. */
   eleventyConfig.addCollection("events", collection =>
     collection.getFilteredByGlob("posts/*.md").filter(post => {
-      return (post.data.location ? post : false);
+      return (post.data.eventLocation ? post : false);
     })
   );
 
@@ -52,12 +52,6 @@ module.exports = function(eleventyConfig) {
       return (post.data.journal ? post : false);
     })
   );
-
-  // eleventyConfig.addCollection("journal", collection => {
-  //   collection.getFilteredByGlob("posts/*.md").filter(post => {
-  //     return (post.data.journal ? post : false);
-  //   })
-  // });
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
